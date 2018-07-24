@@ -18,7 +18,7 @@ h1 { color: #99ff00;}
 
 h2 {  color: #669933; }
 
-h3 { font-size: 40px; padding-top: 8%; margin-bottom: 5px; margin: 0;}
+h3 { font-size: 40px; padding-top: 4%; margin-bottom: 5px; margin: 0;}
 
 h4, p { font-family: 'Indie Flower', serif; color: #003333; }
 
@@ -167,6 +167,7 @@ header nav ul li:hover {
 
 #timeline ul li {
   width:  33.3%;
+
   float: left;
   margin-bottom: 5px;
 }
