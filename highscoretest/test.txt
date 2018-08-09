@@ -1,1 +1,7 @@
-"Test1" "test2" "test3"
+DerAllerBeste, 1000000,
+DerZweitBesteDude, 51251,
+DerDrittBeste, 32130,
+DerDViertBeste, 2130,
+DerDfuenftBeste, 130,
+DersecjstBeste, 30,
+DersiebtBeste, 3,
