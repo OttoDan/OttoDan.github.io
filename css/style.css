@@ -24,7 +24,7 @@ h4, p { font-family: 'Indie Flower', serif; color: #003333; }
 
 hr {  width: 30px;  height:  3px;  background: #494949;  border: 0;  margin: 0 auto 40px auto; }
 
-li, #logo, img, h1, .button, .fa-bars { transition: all 300ms; -webkit-transition: all 300ms; -moz-transition: all 300ms; -o-transition: all 300ms; }
+li, #logo, img, h1, .button, .fa-bars, svg { transition: all 300ms; -webkit-transition: all 300ms; -moz-transition: all 300ms; -o-transition: all 300ms; }
 
 .fa-bars { display: none;}
 /***HEADER***************/
@@ -166,14 +166,14 @@ header nav ul li:hover {
 }
 
 #timeline ul li {
-  width:  33.3%;
+  width:  25%;
 
   float: left;
   margin-bottom: 5px;
 }
 
 #timeline img {
-  width: 280px;
+  width: 200px;
   height: 170px;
   border-radius: 5px;
 }
@@ -204,7 +204,28 @@ header nav ul li:hover {
 #contact {
   //margin-top: -20px;
 }
+#contact ul {
+  padding: center;
+}
 
+#contact ul li {
+  width:  50%;
+
+  float: left;
+  margin-bottom: 5px;
+}
+
+#contact svg {
+  width: 30%;
+  height: auto;
+}
+#contact svg:hover {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.12);
+  -moz-transform: scale(1.12);
+  -o-transform: scale(1.12);
+}
+/*
 form input, textarea {
   font-family: 'Indie Flower', serif;
   font-size: 15px;
@@ -252,7 +273,7 @@ form textarea {
   color: #f0f0f0;
 }
 
-
+*/
 /***FOOTER***************/
 
 footer {
