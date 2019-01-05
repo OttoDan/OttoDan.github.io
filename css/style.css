@@ -3,10 +3,10 @@ html, body {
   padding: 0;
   height: 100%;
   text-align: center;
-  background-color: #999966;
+  background-color: #d4d4d4;
 }
 
-section{  min-height: 100%; background-color: #99cc66;}
+section{  min-height: 100%; background-color: #ececec;}
 
 a {  text-decoration: none; }
 
@@ -14,9 +14,9 @@ li {  list-style-type: none; }
 
 h1, h2, h3, a {  font-family: 'Gaegu', sans-serif;  color: #003333;  text-transform: uppercase; }
 
-h1 { color: #99ff00;}
+h1 { color: #dadada;}
 
-h2 {  color: #669933; }
+h2 {  color: #cccccc; }
 
 h3 { font-size: 40px; padding-top: 4%; margin-bottom: 5px; margin: 0;}
 
@@ -24,7 +24,7 @@ h4, p { font-family: 'Indie Flower', serif; color: #003333; }
 
 hr {  width: 30px;  height:  3px;  background: #494949;  border: 0;  margin: 0 auto 40px auto; }
 
-li, #logo, img, h1, .button, .fa-bars, svg { transition: all 300ms; -webkit-transition: all 300ms; -moz-transition: all 300ms; -o-transition: all 300ms; }
+li, #logo, img, h1,h2, .button, .fa-bars, svg { transition: all 300ms; -webkit-transition: all 300ms; -moz-transition: all 300ms; -o-transition: all 300ms; }
 
 .fa-bars { display: none;}
 /***HEADER***************/
@@ -35,7 +35,7 @@ header {
   position: fixed;
   top: 0;
   left: 0;
-  background: #99cc99;
+  background: #c2c2c2;
   box-shadow: 0 16px 25px rgba(0,0,0,0.125);
   z-index: 1;
   border-radius: 5px;
@@ -85,8 +85,8 @@ header nav ul li:hover {
   background-size: cover;
   background-attachment: fixed;
   background-blend-mode: luminosity;
-  background-color: rgba(10,100,10,0.75);
-  //opacity: 0.8;
+  background-color: rgba(250, 250, 250, 0.75);
+  /*opacity: 0.8;*/
 }
 
 #home h1 {
@@ -100,6 +100,10 @@ header nav ul li:hover {
 #home h2 {
   margin: 0 auto 0 auto;
   font-size: 32px;
+}
+
+#home h2:hover {
+  font-size: 48px;
 }
 
 
@@ -118,7 +122,7 @@ header nav ul li:hover {
   font-size: 40px;
   margin-top: 150px;
   opacity: 0.5;
-  color: #669933;
+  color: #a4b395;
 }
 
 .fa-arrow-circle-down:hover {
@@ -126,7 +130,9 @@ header nav ul li:hover {
 }
 
 /***ABOUT***************/
-
+#about {
+  background-color: #eeeeee;
+}
 #about img {
   width: 240px;
 }
@@ -153,7 +159,7 @@ header nav ul li:hover {
 /***PROJECTS***************/
 
 #projects {
-  background-color: #999966;
+  background-color: #ffffff;
 }
 
 #timeline {
@@ -202,7 +208,9 @@ header nav ul li:hover {
 /***CONTACT***************/
 
 #contact {
-  //margin-top: -20px;
+  background-color: eeeeee;
+  /*margin-top: -20px;*/
+
 }
 #contact ul {
   padding: center;
@@ -280,12 +288,12 @@ footer {
   margin-top: -20px;
   width: 100%;
   height: 70px;
-  background-color:  #99cc99;
+  background-color:  #474747;
 }
 
 footer p {
   font-size:  20px;
-  color: black;
+  color: white;
   padding-top: 16px;
 }
 
